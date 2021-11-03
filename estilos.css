@@ -1,0 +1,170 @@
+#name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    right: -8%;
+}  
+#email{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    right: -8%;
+}
+    button{ 
+        position: relative;
+        right:-50%;
+        height: 20px;
+        width: 55px;
+        display: flex;
+        flex-wrap: wrap;
+
+        
+    }
+    .input-textarea {
+  width: 300px;
+  height: 100px;
+  padding:0.625rem;
+  text-align: center;
+  position: relative;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+}
+#contact{ 
+    position: relative;
+    right: 125%;
+    top:200%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+} 
+@import url(https://fonts.googleapis.com/css?family=Caramel:regular);
+.caption2{ 
+    position: relative;
+    bottom: 10%;
+
+}
+.caption{ 
+    position: relative;
+    left: 30%;
+    bottom: 10%;
+    color: whitesmoke;
+    text-align: left;
+} 
+.responsive-img{
+    max-width: 100%;
+    height: auto;
+}
+
+img{ 
+        width: 100px;
+        height: auto;
+        
+}
+    .image{ 
+        position: absolute;
+        top: 110%;
+        left:20%;
+        width: 50px; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        flex-direction: column;       
+    }
+    .image2{ 
+    position: absolute;
+    left:1200%;
+    top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    
+#video{ 
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    right: 35%;
+    top:45%;
+}
+#form{ 
+    position: fixed;
+    left:70%;
+    bottom:90%; 
+
+}
+    #navbar{ 
+        position: fixed;
+        top: 0%;
+        left: 0%;
+    right:10%;
+    font-size: 40px; 
+font-family: "caramel";
+display: block;
+flex-wrap: wrap;
+justify-content: space-between;
+justify-items: center;    
+}  
+
+    
+    body{ 
+
+background: url("https://i.pinimg.com/originals/cd/f5/ab/cdf5abb21a4d7928513bc91aa177b3ee.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+text-align:center;
+overflow-x:scroll;
+} 
+
+@media (max-width: 600px){
+    #navbar{ 
+        display: none;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        margin-top:70px;
+        font-size: 20px;
+        margin-left: 1px;
+        margin-right: 5px;
+    }
+    #form{
+        position: relative;
+        display:inline-block;
+        flex-wrap: wrap;
+        left:0%;
+        letter-spacing: 1px;
+        
+        
+        
+        
+    }
+    #video{
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        left: 20px;
+        
+    }
+    .image2{
+        position: relative;
+    left:5%;
+    top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    #contact{
+        display: none;
+    }
+}
+    
